@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: #ccc;
+        margin-top: 60px;
+        /* position: absolute;
+        top: 80px; */
+        display: none;
+      }
+      ul {
+        display: flex;
+        column-gap: 10px;
+      }
+      ul li {
+        font-size: 20px;
+        list-style-type: none;
+        position: relative;
+      }
+      .hoverMe:hover > div {
+        display: block;
+        position: absolute;
+      }
+
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>home</li>
+      <li>about</li>
+      <!-- <div class="hoverMe">
+        <li class="">service</li>
+        <div class="box">hello</div>
+      </div> -->
+
+      <li>contact</li>
+
+      <button>Show</button>
+    </ul>
+  </body>
+</html>
